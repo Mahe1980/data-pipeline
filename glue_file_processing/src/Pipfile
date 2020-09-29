@@ -1,0 +1,39 @@
+[[source]]
+name = "pypi"
+url = "https://${JFROG_USERNAME_AND_API_KEY}@icg.jfrog.io/icg/api/pypi/PyPi/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "==5.0.1"
+pytest-bdd = "==3.1.1"
+pytest-cov = "==2.7.1"
+flake8 = "==3.7.8"
+autopep8 = "==1.4.4"
+boto3 = "==1.9.201"
+ecdsa = "==0.14"
+moto = "==1.3.13"
+pylint = "==2.3.1"
+teamcity-messages = "==1.25"
+pylint-runner = "==0.5.4"
+
+[packages]
+icg-dp-core = "==6.0.40"
+icg-dp-loggings = "==6.0.40"
+icg-dp-file-operations = "==6.0.40"
+icg-dp-data-quality = "==6.0.40"
+icg-dp-glue-catalog ="==6.0.40"
+icg-dp-serializer = "==6.0.40"
+icg-dp-hashing = "==6.0.40"
+icg-dp-sns = "==6.0.40"
+icg-dp-tagger = "==6.0.40"
+
+pandas = "==0.25.3"
+s3fs = "==0.4.0"
+boto3 = "==1.9.203"
+botocore = "==1.12.232"
+pyarrow = "==0.15.1"
+dataclasses = "==0.7"
+python-json-logger = "==0.1.11"
+
+[requires]
+python_version = "3.6"

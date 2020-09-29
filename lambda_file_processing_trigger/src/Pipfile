@@ -1,0 +1,18 @@
+[[source]]
+url = "https://${JFROG_USERNAME_AND_API_KEY}@icg.jfrog.io/icg/api/pypi/PyPi/simple"
+verify_ssl = "true"
+name = "pypi"
+
+[dev-packages]
+pytest = "==5.0.1"
+pytest-cov = "==2.7.1"
+flake8 = "==3.7.8"
+autopep8 = "==1.4.4"
+boto3 = "==1.9.201"
+
+[packages]
+icg-dp-core = "==6.0.40"
+icg-dp-loggings = "==6.0.40"
+
+[requires]
+python_version = "3.6"
